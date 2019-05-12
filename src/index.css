@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #70497c;
+  --apple-green: #7ed321;
 }
 
 * {
@@ -12,20 +12,18 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  src: url(../public/font/SFUIText-Regular.otf);
+  src: url(./font/SFUIText-Regular.otf);
 }
 
 @font-face {
   font-family: "SFUIText";
-  src: url(../public/font/SFUIText-Regular.otf);
+  src: url(./font/SFUIText-Regular.otf);
 }
 
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: "SFUIText", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
